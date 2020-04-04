@@ -3,6 +3,15 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 导入 vant
+import Vant from 'vant'
+import 'vant/lib/index.css'
+// 使用字体图标文件
+import './style/index.css'
+
+// 使用 vant
+Vue.use(Vant)
+
 Vue.config.productionTip = false
 
 new Vue({
